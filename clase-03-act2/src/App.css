@@ -1,0 +1,29 @@
+.container{
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+  background-color: rgb(253, 166, 3);
+  padding: 2rem;
+  border-radius: 10px;
+}
+.divisa__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:0.5rem;
+  background-color:whitesmoke;
+  padding: 1.1rem;
+  border-radius: 10px;
+}
+input{
+  width: 10rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  color: tomato;
+  border-radius: 10px;
+}
