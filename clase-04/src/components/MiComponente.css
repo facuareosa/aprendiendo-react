@@ -1,0 +1,21 @@
+.card{
+    width: 25rem;
+    padding: 1rem;
+}
+.rey__nombre{
+    color: whitesmoke
+}
+.rey__img{
+    width: 100%;
+}
+.rey__text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.rey__precio{
+    
+}
+.rey__btn{
+
+}
