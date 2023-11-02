@@ -1,5 +1,6 @@
 import React from 'react'
 import ReyCard from'./Components/Actividad1'
+import './App.css'
 
 function App() {
   const reyes=[
@@ -33,10 +34,9 @@ function App() {
         vacasComidas:12
     }
   ]
-
   return (
     <>
-      <section>
+      <section className='card__section'>
         <ReyCard reyes={reyes}/>
       </section>
     </>
