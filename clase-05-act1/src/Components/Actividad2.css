@@ -1,0 +1,7 @@
+.rey__tag{
+    display: flex;
+}
+.rey__nombre{
+    font-size: 2rem;
+    margin:0 1rem
+}

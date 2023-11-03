@@ -1,4 +1,5 @@
 import React from 'react'
+import './Actividad1.css'
 
 function ReyCard({reyes}) {
     const imgUrl = "http://www.html6.es/img/rey_"
@@ -13,7 +14,9 @@ function ReyCard({reyes}) {
         )
     return( 
     <>
-        {reyInfo}
+        <section className='section'>
+            {reyInfo}
+        </section>
     </>
     );
 }
