@@ -1,0 +1,21 @@
+.section-3{
+    flex-direction: column;
+}
+
+.search__div{
+    display: flex;
+    gap: 1rem;
+}
+
+.search__input{
+    line-height: 2rem;
+    width: 15rem;
+    font-size: 1rem;
+}
+.search__btn{
+    font-size: 1.5rem;
+}
+
+.search__result{
+    font-size: 1.5rem;
+}
