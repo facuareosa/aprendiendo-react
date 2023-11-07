@@ -2,6 +2,7 @@ import React from 'react'
 import ReyCard from'./Components/Actividad1'
 import Actividad2 from './Components/Actividad2'
 import Actividad3 from './Components/Actividad3'
+import Actividad4 from './Components/Actividad4'
 import './App.css'
 
 function App() {
@@ -44,6 +45,8 @@ function App() {
         <Actividad2 reyes={reyes}/>
       <h2 className="actividad__title">Actividad 3</h2>
         <Actividad3 reyes={reyes}/>
+      <h2 className="actividad__title">Actividad 4</h2>
+        <Actividad4 reyes={reyes}/>
 
     </>
   )
