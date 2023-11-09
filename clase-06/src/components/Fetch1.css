@@ -1,0 +1,24 @@
+.joke__section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+.joke__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.joke__btn{
+    height: 2rem;
+}
+.joke__pregunta{
+
+}
+.joke__respuesta{
+
+}
