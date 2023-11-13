@@ -1,0 +1,9 @@
+.banderas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banderas__img{
+  width: 5rem;
+  margin: 1rem;
+}
