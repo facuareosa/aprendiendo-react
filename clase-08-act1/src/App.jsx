@@ -1,4 +1,4 @@
-import React from 'react'
+import {React , useContext}from 'react'
 import {Datos,Context} from './components/Context'
 import NavBar from './components/NavBar'
 import Rey from './components/Rey'
@@ -12,13 +12,10 @@ function App() {
       <Datos>
         <BrowserRouter>
         <NavBar/>
-        <main>
-        <Home />
-        </main>
-
-
         <Routes>
-          <Route path="/ataulfo" element={<Rey />} />
+          <Route path="/:rey" element={<Rey />} />
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
         </Routes>
         </BrowserRouter>
       </Datos>

@@ -1,0 +1,12 @@
+.rey__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.rey__name{
+    color: crimson;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
