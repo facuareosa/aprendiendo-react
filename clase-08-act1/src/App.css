@@ -1,0 +1,18 @@
+a{
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #0c0c0c;
+
+}
+  .nav-active{
+    color: gold;
+    background-color: crimson;
+  }

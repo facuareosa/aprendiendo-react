@@ -6,10 +6,12 @@ function NavBar() {
     const reyes = useContext(Context)
 
     const reyesLink = reyes.map((rey,index)=>{
-      return <NavLink to={`/${rey}`}>{rey}</NavLink>
+      return <NavLink className={
+        ({isActive}) => (isActive ? "nav-active" : null)
+        } to={`/${rey}`}>{rey}</NavLink>
     })
   return (
-    <nav>
+    <nav className='nav'>
       
       {reyesLink}
     </nav>

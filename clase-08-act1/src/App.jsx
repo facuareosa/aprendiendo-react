@@ -12,10 +12,11 @@ function App() {
       <Datos>
         <BrowserRouter>
         <NavBar/>
-
+        <main>
         <Home />
+        </main>
 
-        
+
         <Routes>
           <Route path="/ataulfo" element={<Rey />} />
         </Routes>

@@ -1,0 +1,8 @@
+section{
+    margin: 2rem auto;
+    max-width: 1200px;
+    display: flex;
+    gap:2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}

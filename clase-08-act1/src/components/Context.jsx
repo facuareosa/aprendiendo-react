@@ -4,7 +4,7 @@ export const Context = createContext();
 
 export const Datos = ({children}) =>{
 
-    const reyes = ["atanagildo","ataulfo","ervigio","leogivildo","recesvnito","sisebuo"];
+    const reyes = ["atanagildo","ataulfo","ervigio","leogivildo","recesvnito","sisebuto"];
 
     return (
         <Context.Provider value={reyes}>
