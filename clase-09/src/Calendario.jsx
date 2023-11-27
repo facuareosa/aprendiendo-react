@@ -22,8 +22,14 @@ const reducer = (state,action) =>{
         case "menosM":
             newMonth= newMonth == 0 ? 11 : newMonth-1;
             break;
+        case "masY":
+            newYear=newYear+1;
+            break;
+        case "menosY":
+            newYear=newYear-1;
+            break;
     }
-    return {m:newMonth,a:state.a};
+    return {m:newMonth,a:newYear};
     
 
 } 
@@ -36,7 +42,16 @@ function Calendario() {
     <>
         {meses[fecha.m]} ({fecha.a})
         <div>
-            meses <button onClick={()=> dispatch({type:'masM'})}>+</button><button onClick={()=> dispatch({type:'menosM'})}>-</button>
+            <div>
+                Meses
+                <button onClick={()=> dispatch({type:'masM'})}>+</button>
+                <button onClick={()=> dispatch({type:'menosM'})}>-</button>
+            </div>
+            <div>
+                Años
+                <button onClick={()=> dispatch({type:'masY'})}>+</button>
+                <button onClick={()=> dispatch({type:'menosY'})}>-</button>
+            </div>
         </div>
     </>
   )
