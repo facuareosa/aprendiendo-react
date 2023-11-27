@@ -1,0 +1,33 @@
+.shopList{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.input__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input__box{
+    line-height: 1.5rem;
+}
+
+.list__unit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.list__text{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.list__btns button{
+    width: 2rem;
+    height: 2rem;
+}
